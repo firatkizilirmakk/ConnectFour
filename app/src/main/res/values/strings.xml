@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConnectFour</string>
+    <string name="after_finish">Again ?</string>
+    <string name="title">ConnectFour</string>
+    <string name="undo">Undo</string>
+    <string name="titlefirst">connect</string>
+    <string name="titlesecond">four</string>
+    <string name="rules">Rules</string>
+    <string name="instructions">Instructions</string>
+    <string name="rulesText">To win the game,four cells must be connected to each other either by horizontally,vertically or diagonally."</string>
+    <string name="instructionsText">To start the game,select the board size,game mode whether PvP or PvC and game version which is timed or not.In time version,user must move within set amount of time.</string>
+</resources>

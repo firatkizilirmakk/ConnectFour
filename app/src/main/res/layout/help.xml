@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/curve"
+    >
+
+    <TextView
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:textColor="@color/backBlue"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        />
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/backBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rod"
+        android:text="@string/rulesText"
+
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textColor="@color/backBlue"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/backBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rod"
+        android:text="@string/instructionsText"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        />
+</LinearLayout>

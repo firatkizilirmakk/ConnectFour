@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firatk.connectfour.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/back2"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="100dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rod"
+                android:text="@string/titlefirst"
+                android:textSize="50dp"
+                android:textColor="@color/playersec"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rod"
+                android:text="@string/titlesecond"
+                android:textSize="50dp"
+                android:textColor="@color/backBlue"
+                />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/playImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_arrow"
+            android:background="@null"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <SeekBar
+                android:id="@+id/sizeSeekBar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:fadingEdge="horizontal"
+                android:indeterminateTint="@android:color/background_light"
+                android:progress="12"
+                android:progressTint="@color/backBlue" />
+            <TextView
+                android:id="@+id/seekBarTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/singleimage"/>
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/multiimage"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+
+            >
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/singlePlayerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:paddingRight="5dp" />
+
+                <RadioButton
+                    android:id="@+id/multiPlayerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transitionLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            >
+            <ImageButton
+                android:id="@+id/timeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                />
+            <SeekBar
+                android:id="@+id/timeSeekBar"
+                android:layout_height="wrap_content"
+                android:layout_width="66dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:progress="0"
+                android:progressTint="@color/backBlue"
+                />
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/helpButton"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_help_outline"
+                android:background="@null"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
