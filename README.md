@@ -14,4 +14,4 @@ Some screenshots from the game :
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/firatkizilirmakk/ConnectFour/blob/master/screenshot3.jpeg" width="200">
     <br/><br/><br/>
-Good luck,I hope you like.
+I hope you like.
